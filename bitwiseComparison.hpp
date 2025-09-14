@@ -1,5 +1,3 @@
-#ifndef Q2_STUDENT_CODE_HPP
-#define Q2_STUDENT_CODE_HPP
 
 #include <bitset>
 #include <type_traits>
@@ -125,4 +123,4 @@ int compare_integral(T a, T b) {
     }    
 }
 
-#endif // Q2_STUDENT_CODE_HPP
+
