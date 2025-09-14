@@ -1,21 +1,34 @@
-# Bitwise-Integer-Comparison-Algorithm
 
-A high-performance C++ template implementation for comparing integers without using conditional statements or traditional comparison operators.
-🚀 Overview
-This project implements a sophisticated integer comparison algorithm that operates purely through bitwise operations. The solution handles both signed and unsigned integers while maintaining optimal performance and memory efficiency.
-✨ Key Features
+# ⚡ Bitwise Integer Comparator in C++
 
-Zero Conditional Statements: No if, ?:, switch, <, >, <=, >= operators used
-Pure Bitwise Operations: Leverages ~, &, |, ^, >>, << for all logic
-Template-Based: Generic implementation supporting all integral types
-Two's Complement Arithmetic: Advanced handling of signed integer edge cases
-Overflow-Safe: Robust handling of integer limits and boundary conditions
+A **high-performance, header-only C++ template** for comparing integers **without using conditional statements** or traditional comparison operators.
 
-🎯 Problem Statement
-Compare two integers and return:
+---
 
--1 if a < b
-0 if a == b
-1 if a > b
+## 🚀 Overview
 
-Without using any conditional statements or direct comparison operators.
+This project implements a **sophisticated bitwise comparison algorithm** to evaluate the relationship between two integers, entirely without relying on control flow or direct comparison operators.
+
+- ✅ Handles **signed and unsigned integers**
+- ✅ Designed for **performance-critical**, **embedded**, or **low-level system** applications
+
+---
+
+## ✨ Key Features
+
+- 🔒 **Zero Conditionals**  
+  No use of `if`, `?:`, `switch`, `<`, `>`, `<=`, or `>=` operators.
+
+- 🧮 **Pure Bitwise Operations**  
+  Fully utilizes bitwise logic: `~`, `&`, `|`, `^`, `>>`, `<<`
+
+- 🧵 **Template-Based**  
+  Supports all integral types using C++ templates (`int`, `unsigned int`, `int64_t`, etc.)
+
+- 🧠 **Two's Complement Aware**  
+  Correctly handles signed integers and edge cases (e.g., INT_MIN, INT_MAX)
+
+- 💥 **Overflow-Safe**  
+  No undefined behavior or overflow in corner cases
+
+---
